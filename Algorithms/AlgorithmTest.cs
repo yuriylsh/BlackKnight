@@ -1,19 +1,17 @@
 using Xunit;
 
-namespace DeveloperSample.Algorithms
+namespace DeveloperSample.Algorithms;
+public class AlgorithmTest
 {
-    public class AlgorithmTest
+    [Fact]
+    public void CanGetFactorial()
     {
-        [Fact(Skip="Not implemented")]
-        public void CanGetFactorial()
-        {
-            Assert.Equal(24, Algorithms.GetFactorial(4));
-        }
+        Assert.Equal(24, Algorithms.GetFactorial(4));
+    }
 
-        [Fact(Skip="Not implemented")]
-        public void CanFormatSeparators()
-        {
-            Assert.Equal("a, b and c", Algorithms.FormatSeparators("a", "b", "c"));
-        }
+    [Fact]
+    public void CanFormatSeparators()
+    {
+        Assert.Equal("a, b and c", Algorithms.FormatSeparators("a", "b", "c"));
     }
 }
