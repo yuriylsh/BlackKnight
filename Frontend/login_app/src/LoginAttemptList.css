@@ -2,7 +2,16 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
   max-width: 25vw;
   padding: 0 2em;
+}
+
+.Attempt-List-Main .output {
+  font-family: monospace;
+  background-color: lightgrey;
+}
+
+.Attempt-List-Main li {  
+  text-align: left;
 }
